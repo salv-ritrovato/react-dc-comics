@@ -1,0 +1,24 @@
+/* HEADER & NAVBAR */
+header {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.navbar {
+    gap: 3rem;
+    font-family: 'Open Sans Variable', sans-serif;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding-bottom: 8px;
+    border-bottom: 3px solid transparent;
+}
+
+.navbar .active {
+    color: #39a1fb;
+    border-bottom: 3px solid #0099ff;
+}
