@@ -38,3 +38,21 @@ header {
     color: white;
     margin-left: 300px;
 }
+
+/* ONLINE SHOP */
+.onlineshop {
+    background-color: #0282F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 80px;
+    color: white;
+}
+
+.onlineshop img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-right: -80px;
+}
