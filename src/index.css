@@ -14,15 +14,13 @@ header {
     padding: 30px;
     text-decoration: none;
     color: #46464c;
-    font-weight: 600;
-    padding-bottom: 8px;
-    border-bottom: 3px solid transparent;
+    font-weight: 700;
 }
 
 .nav-item a:hover {
     color: #39a1fb;
     border-bottom: 7px solid #0099ff;
-    padding-bottom: 75px;
+    padding-bottom: 73px;
 }
 
 /* MAIN */
@@ -35,10 +33,11 @@ header {
 
 .content p {
     font-family: 'Open Sans Variable', sans-serif;
-    font-size: 25px;
+    font-size: 30px;
     color: white;
     margin-left: 300px;
     /* temporary margin waiting for real content */
+    font-weight: 700;
 }
 
 /* ONLINE SHOP */
