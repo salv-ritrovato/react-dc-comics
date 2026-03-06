@@ -8,28 +8,28 @@ export default function AppHeader() {
     return (
         <>
             <div className="container-fluid onlineshop">
-                <div className="row text-center g-5">
-                    <div className="col-12 col-md-4 col-lg">
+                <div className="row row-cols-1 row-cols-lg-5 text-center g-5">
+                    <div className="col">
                         <img src={eComics} alt="Digital Comics" className="img-fluid" />
                         <span className='d-none d-lg-inline'>DIGITAL COMICS</span>
                     </div>
 
-                    <div className="col-12 col-md-4 col-lg">
+                    <div className="col">
                         <img src={merchandise} alt="DC Merchandise" className="img-fluid" />
                         <span className='d-none d-lg-inline'>DC MERCHANDISE</span>
                     </div>
 
-                    <div className="col-12 col-md-4 col-lg">
+                    <div className="col">
                         <img src={subscription} alt="Monthly Subscription" className="img-fluid" />
                         <span className='d-none d-lg-inline'>SUBSCRIPTION</span>
                     </div>
 
-                    <div className="col-12 col-md-4 col-lg">
+                    <div className="col">
                         <img src={shopLocator} alt="Find Your Shop" className="img-fluid" />
                         <span className='d-none d-lg-inline'>COMIC SHOP LOCATOR</span>
                     </div>
 
-                    <div className="col-12 col-md-4 col-lg">
+                    <div className="col">
                         <img src={powerVisa} alt="DC Power Visa" className="img-fluid" />
                         <span className='d-none d-lg-inline'>DC POWER VISA</span>
                     </div>

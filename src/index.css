@@ -1,9 +1,11 @@
 /* HEADER & NAVBAR */
 header {
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: space-between;
     margin-top: 20px;
-    margin: 40px;
+    margin: 20px 40px;
+    gap: 10px;
 }
 
 .navbar {
@@ -11,7 +13,7 @@ header {
 }
 
 .nav-item a {
-    padding: 30px;
+    padding: 10px 15px;
     text-decoration: none;
     color: #46464c;
     font-weight: 700;
@@ -27,8 +29,6 @@ header {
 .content {
     min-height: 10rem;
     background-color: #1c1c1c;
-    display: flex;
-    align-items: center;
 }
 
 .content p {
@@ -55,4 +55,35 @@ header {
 
 .onlineshop span {
     margin-left: 1rem;
+}
+
+/* FOOTER */
+.heroesbackground h5 {
+    color: white;
+    margin-top: 40px;
+}
+
+footer {
+    background-image: url(./assets/img/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.socials {
+    font-family: 'Open Sans Variable', sans-serif;
+    background-color: #303030;
+}
+
+.socials button {
+    font-family: 'Open Sans Variable', sans-serif;
+    border: 2px solid #0099ff;
+    background: transparent;
+    color: white;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+.socials h5 {
+    font-family: 'Open Sans Variable', sans-serif;
+    color: #0099ff;
 }
