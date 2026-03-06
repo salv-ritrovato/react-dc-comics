@@ -1,3 +1,4 @@
+// Imported my custom components from "components" folder
 import AppHeader from './components/AppHeader'
 import AppMain from './components/AppMain'
 import AppFooter from './components/AppFooter'
