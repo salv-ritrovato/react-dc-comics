@@ -43,10 +43,6 @@ header {
 /* ONLINE SHOP */
 .onlineshop {
     background-color: #0282F9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 100px;
     padding: 80px;
     color: white;
 }
@@ -55,5 +51,8 @@ header {
     width: 80px;
     height: 80px;
     object-fit: contain;
-    margin-right: -80px;
+}
+
+.onlineshop span {
+    margin-left: 1rem;
 }
