@@ -67,6 +67,7 @@
 }
 
 .heroesbackground {
+    position: relative;
     z-index: 1;
 }
 
@@ -90,14 +91,16 @@ footer {
 .dcLogoBackground img {
     transform: translate(-50%, -50%);
     top: 50%;
-    left: 300%;
+    left: 200%;
     position: absolute;
-    z-index: 3;
+    z-index: 0;
 }
 
 .socials {
+    position: relative;
     background-color: #303030;
     padding: 20px 0;
+    z-index: 2;
 }
 
 .socials button {

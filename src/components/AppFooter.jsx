@@ -10,7 +10,7 @@ export default function AppFooter() {
       <>
          <footer>
             <div className="container heroesbackground">
-               <div className="row row-cols-1 row-cols-md-2 row-cols-lg-6">
+               <div className="row row-cols-1 row-cols-md-1 row-cols-lg-6 text-center text-lg-start">
                   <div className="col">
                      <h5>DC COMICS</h5>
                      <ul className="list-unstyled">
@@ -54,7 +54,7 @@ export default function AppFooter() {
                         <li><a href="">DC Power Visa</a></li>
                      </ul>
                   </div>
-                  <div className="col dcLogoBackground">
+                  <div className="col d-none d-lg-block dcLogoBackground">
                      <img src={dcLogoBackground} alt="DC Logo Footer" />
                   </div>
                </div>
