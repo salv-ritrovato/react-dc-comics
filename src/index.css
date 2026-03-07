@@ -7,17 +7,24 @@ header {
     font-family: 'Open Sans Variable', sans-serif;
 }
 
-.nav-item a {
-    padding: 10px 15px;
-    text-decoration: none;
+.nav-link {
     color: #46464c;
     font-weight: 700;
+    position: relative;
 }
 
-.nav-item a:hover {
+.nav-link:hover {
     color: #39a1fb;
-    border-bottom: 7px solid #0099ff;
+}
 
+.nav-link:hover::after {
+    content: ' ';
+    position: absolute;
+    background-color: #0099ff;
+    height: 7px;
+    width: 100%;
+    left: 0;
+    bottom: -65px;
 }
 
 /* MAIN */
