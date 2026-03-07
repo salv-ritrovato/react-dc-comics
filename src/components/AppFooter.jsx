@@ -13,7 +13,7 @@ export default function AppFooter() {
                <div className="row row-cols-1 row-cols-md-2 row-cols-lg-6">
                   <div className="col">
                      <h5>DC COMICS</h5>
-                     <ul className="list-unstyled text-decoration-none">
+                     <ul className="list-unstyled">
                         <li><a href="">Characters</a></li>
                         <li><a href="">Comics</a></li>
                         <li><a href="">Movies</a></li>

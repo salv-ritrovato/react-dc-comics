@@ -70,6 +70,11 @@
     z-index: 1;
 }
 
+.heroesbackground a {
+    text-decoration: none;
+    color: #959595;
+}
+
 footer {
     background-image: url(./assets/img/footer-bg.jpg);
     background-repeat: no-repeat;
