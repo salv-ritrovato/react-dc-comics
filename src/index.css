@@ -1,11 +1,6 @@
 /* HEADER & NAVBAR */
 header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 20px;
     margin: 20px 40px;
-    gap: 10px;
 }
 
 .navbar {
@@ -22,7 +17,7 @@ header {
 .nav-item a:hover {
     color: #39a1fb;
     border-bottom: 7px solid #0099ff;
-    padding-bottom: 73px;
+
 }
 
 /* MAIN */
