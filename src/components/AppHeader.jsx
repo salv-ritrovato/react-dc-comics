@@ -4,8 +4,10 @@ export default function AppHeader() {
     return (
         <>
             <header>
+                <div className="blackbar">
+                </div>
                 <nav className="navbar navbar-expand-lg navbar-light">
-                    <div className="container-fluid d-flex justify-content-between align-items-center">
+                    <div className="container d-flex justify-content-between align-items-center">
                         <a className="navbar-brand" href="">
                             <img src={dcLogo} alt="DC Comics Logo" />
                         </a>
