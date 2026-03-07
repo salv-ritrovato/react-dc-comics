@@ -76,6 +76,9 @@ export default function AppMain() {
                   </div>
                </div>
             </div>
+            <div className="blackbar">
+
+            </div>
          </footer>
       </>
    )

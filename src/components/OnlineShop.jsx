@@ -4,34 +4,36 @@ import subscription from '../../src/assets/img/buy-comics-subscriptions.png'
 import shopLocator from '../../src/assets/img/buy-comics-shop-locator.png'
 import powerVisa from '../../src/assets/img/buy-dc-power-visa.svg'
 
-export default function AppHeader() {
+export default function OnlineShop() {
     return (
         <>
-            <div className="container-fluid onlineshop">
-                <div className="row row-cols-1 row-cols-lg-5 text-center g-5">
-                    <div className="col">
-                        <img src={eComics} alt="Digital Comics" className="img-fluid" />
-                        <span className='d-none d-lg-inline'>DIGITAL COMICS</span>
-                    </div>
+            <div className="onlineshop">
+                <div className="container">
+                    <div className="row row-cols-1 row-cols-lg-5 text-center g-5 d-flex justify-content-center">
+                        <div className="col">
+                            <img src={eComics} alt="Digital Comics" className="img-fluid" />
+                            <span className='d-none d-lg-block d-xl-inline'>DIGITAL COMICS</span>
+                        </div>
 
-                    <div className="col">
-                        <img src={merchandise} alt="DC Merchandise" className="img-fluid" />
-                        <span className='d-none d-lg-inline'>DC MERCHANDISE</span>
-                    </div>
+                        <div className="col">
+                            <img src={merchandise} alt="DC Merchandise" className="img-fluid" />
+                            <span className='d-none d-lg-block d-xl-inline'>DC MERCHANDISE</span>
+                        </div>
 
-                    <div className="col">
-                        <img src={subscription} alt="Monthly Subscription" className="img-fluid" />
-                        <span className='d-none d-lg-inline'>SUBSCRIPTION</span>
-                    </div>
+                        <div className="col">
+                            <img src={subscription} alt="Monthly Subscription" className="img-fluid" />
+                            <span className='d-none d-lg-block d-xl-inline'>SUBSCRIPTION</span>
+                        </div>
 
-                    <div className="col">
-                        <img src={shopLocator} alt="Find Your Shop" className="img-fluid" />
-                        <span className='d-none d-lg-inline'>COMIC SHOP LOCATOR</span>
-                    </div>
+                        <div className="col">
+                            <img src={shopLocator} alt="Find Your Shop" className="img-fluid" />
+                            <span className='d-none d-lg-block d-xl-inline'>COMIC SHOP LOCATOR</span>
+                        </div>
 
-                    <div className="col">
-                        <img src={powerVisa} alt="DC Power Visa" className="img-fluid" />
-                        <span className='d-none d-lg-inline'>DC POWER VISA</span>
+                        <div className="col">
+                            <img src={powerVisa} alt="DC Power Visa" className="img-fluid" />
+                            <span className='d-none d-lg-block d-xl-inline'>DC POWER VISA</span>
+                        </div>
                     </div>
                 </div>
             </div>

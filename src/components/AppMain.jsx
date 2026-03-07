@@ -1,6 +1,6 @@
 export default function AppMain() {
    return <main>
-      <div className="content">
+      <div className="content d-flex align-items-center">
          <div className="container">
             <div className="row">
                <div className="col">
