@@ -5,15 +5,15 @@ import pinterestIcon from '../../src/assets/img/footer-pinterest.png'
 import periscopeIcon from '../../src/assets/img/footer-periscope.png'
 import dcLogoBackground from '../../src/assets/img/dc-logo-bg.png'
 
-export default function AppMain() {
+export default function AppFooter() {
    return (
       <>
          <footer>
             <div className="container heroesbackground">
-               <div className="row row-cols-1 row-cols-lg-4">
+               <div className="row row-cols-1 row-cols-md-2 row-cols-lg-6">
                   <div className="col">
-                     <h5>DC COMICS</h5>
                      <ul>
+                        <li><h5>DC COMICS</h5></li>
                         <li><a href="">Characters</a></li>
                         <li><a href="">Comics</a></li>
                         <li><a href="">Movies</a></li>
@@ -22,15 +22,15 @@ export default function AppMain() {
                         <li><a href="">Videos</a></li>
                         <li><a href="">News</a></li>
                      </ul>
-                     <h5>SHOP</h5>
                      <ul>
+                        <li><h5>SHOP</h5></li>
                         <li><a href="">Shop DC</a></li>
                         <li><a href="">Shop DC Collectibles</a></li>
                      </ul>
                   </div>
                   <div className="col">
-                     <h5>DC</h5>
                      <ul>
+                        <li><h5>DC</h5></li>
                         <li><a href="">Terms of Use</a></li>
                         <li><a href="">Privacy Policy (New)</a></li>
                         <li><a href="">Ad Choice</a></li>
@@ -45,8 +45,8 @@ export default function AppMain() {
                      </ul>
                   </div>
                   <div className="col">
-                     <h5>SITES</h5>
                      <ul>
+                        <li><h5>SITES</h5></li>
                         <li><a href="">DC</a></li>
                         <li><a href="">MAD Magazine</a></li>
                         <li><a href="">DC Kids</a></li>
@@ -59,25 +59,24 @@ export default function AppMain() {
                   </div>
                </div>
             </div>
-            <div className="subfooter socials">
-               <div className="container">
-                  <div className="row d-flex align-items-center justify-content-between">
-                     <div className="col-12">
+            <div className="socials">
+               <div className="container h-100">
+                  <div className="row h-100 d-flex align-items-center justify-content-center justify-content-lg-between text-center text-lg-start">
+                     <div className="col-auto mb-3 mb-lg-0 mx-auto">
                         <button>SIGN-UP NOW!</button>
                      </div>
-                     <div className="col-12 d-flex align-items-center">
-                        <h5>FOLLOW US</h5>
-                        <img src={fbIcon} alt="Facebook" className="img-fluid" />
-                        <img src={twitterIcon} alt="Twitter" className="img-fluid" />
-                        <img src={youtubeIcon} alt="YouTube" className="img-fluid" />
-                        <img src={pinterestIcon} alt="Pinterest" className="img-fluid" />
-                        <img src={periscopeIcon} alt="Periscope" className="img-fluid" />
+                     <div className="col-auto d-flex align-items-center gap-3 mx-auto">
+                        <h5 className="mb-0">FOLLOW US</h5>
+                        <img src={fbIcon} alt="Facebook" />
+                        <img src={twitterIcon} alt="Twitter" />
+                        <img src={youtubeIcon} alt="YouTube" />
+                        <img src={pinterestIcon} alt="Pinterest" />
+                        <img src={periscopeIcon} alt="Periscope" />
                      </div>
                   </div>
                </div>
             </div>
             <div className="blackbar">
-
             </div>
          </footer>
       </>
