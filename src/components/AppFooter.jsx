@@ -12,8 +12,8 @@ export default function AppFooter() {
             <div className="container heroesbackground">
                <div className="row row-cols-1 row-cols-md-2 row-cols-lg-6">
                   <div className="col">
-                     <ul>
-                        <li><h5>DC COMICS</h5></li>
+                     <h5>DC COMICS</h5>
+                     <ul className="list-unstyled text-decoration-none">
                         <li><a href="">Characters</a></li>
                         <li><a href="">Comics</a></li>
                         <li><a href="">Movies</a></li>
@@ -22,15 +22,15 @@ export default function AppFooter() {
                         <li><a href="">Videos</a></li>
                         <li><a href="">News</a></li>
                      </ul>
-                     <ul>
-                        <li><h5>SHOP</h5></li>
+                     <h5>SHOP</h5>
+                     <ul className="list-unstyled">
                         <li><a href="">Shop DC</a></li>
                         <li><a href="">Shop DC Collectibles</a></li>
                      </ul>
                   </div>
                   <div className="col">
-                     <ul>
-                        <li><h5>DC</h5></li>
+                     <ul className="list-unstyled">
+                        <h5>DC</h5>
                         <li><a href="">Terms of Use</a></li>
                         <li><a href="">Privacy Policy (New)</a></li>
                         <li><a href="">Ad Choice</a></li>
@@ -45,8 +45,8 @@ export default function AppFooter() {
                      </ul>
                   </div>
                   <div className="col">
-                     <ul>
-                        <li><h5>SITES</h5></li>
+                     <h5>SITES</h5>
+                     <ul className="list-unstyled">
                         <li><a href="">DC</a></li>
                         <li><a href="">MAD Magazine</a></li>
                         <li><a href="">DC Kids</a></li>
@@ -60,12 +60,12 @@ export default function AppFooter() {
                </div>
             </div>
             <div className="socials">
-               <div className="container h-100">
-                  <div className="row h-100 d-flex align-items-center justify-content-center justify-content-lg-between text-center text-lg-start">
-                     <div className="col-auto mb-3 mb-lg-0 mx-auto">
+               <div className="container">
+                  <div className="row align-items-center justify-content-center justify-content-lg-between">
+                     <div className="col-auto mb-3 mb-lg-0">
                         <button>SIGN-UP NOW!</button>
                      </div>
-                     <div className="col-auto d-flex align-items-center gap-3 mx-auto">
+                     <div className="col-auto d-flex align-items-center gap-3">
                         <h5 className="mb-0">FOLLOW US</h5>
                         <img src={fbIcon} alt="Facebook" />
                         <img src={twitterIcon} alt="Twitter" />
