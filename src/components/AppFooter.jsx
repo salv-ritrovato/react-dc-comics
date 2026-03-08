@@ -67,11 +67,11 @@ export default function AppFooter() {
                      </div>
                      <div className="col-auto d-flex align-items-center gap-3">
                         <h5>FOLLOW US</h5>
-                        <img src={fbIcon} alt="Facebook" />
-                        <img src={twitterIcon} alt="Twitter" />
-                        <img src={youtubeIcon} alt="YouTube" />
-                        <img src={pinterestIcon} alt="Pinterest" />
-                        <img src={periscopeIcon} alt="Periscope" />
+                        <a href=""><img src={fbIcon} alt="Facebook" /></a>
+                        <a href=""><img src={twitterIcon} alt="Twitter" /></a>
+                        <a href=""><img src={youtubeIcon} alt="YouTube" /></a>
+                        <a href=""><img src={pinterestIcon} alt="Pinterest" /></a>
+                        <a href=""><img src={periscopeIcon} alt="Periscope" /></a>
                      </div>
                   </div>
                </div>
