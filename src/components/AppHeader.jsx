@@ -1,11 +1,10 @@
-import dcLogo from '../../src/assets/img/dc-logo.png'
+import dcLogo from '../../src/assets/img/dc-logo.png';
 
 export default function AppHeader() {
     return (
         <>
             <header>
-                <div className="blackbar">
-                </div>
+                <div className="blackbar"></div>
                 <nav className="navbar navbar-expand-lg navbar-light">
                     <div className="container d-flex justify-content-between align-items-center">
                         <a className="navbar-brand" href="">

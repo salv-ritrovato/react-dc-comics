@@ -10,7 +10,7 @@ export default function AppFooter() {
       <>
          <footer>
             <div className="container heroesbackground">
-               <div className="row row-cols-1 row-cols-md-1 row-cols-lg-6 text-center text-lg-start">
+               <div className="row row-cols-1 row-cols-lg-6 text-center text-lg-start">
                   <div className="col">
                      <h5>DC COMICS</h5>
                      <ul className="list-unstyled">
@@ -29,8 +29,8 @@ export default function AppFooter() {
                      </ul>
                   </div>
                   <div className="col">
+                     <h5>DC</h5>
                      <ul className="list-unstyled">
-                        <h5>DC</h5>
                         <li><a href="">Terms of Use</a></li>
                         <li><a href="">Privacy Policy (New)</a></li>
                         <li><a href="">Ad Choice</a></li>
@@ -66,7 +66,7 @@ export default function AppFooter() {
                         <button>SIGN-UP NOW!</button>
                      </div>
                      <div className="col-auto d-flex align-items-center gap-3">
-                        <h5 className="mb-0">FOLLOW US</h5>
+                        <h5>FOLLOW US</h5>
                         <img src={fbIcon} alt="Facebook" />
                         <img src={twitterIcon} alt="Twitter" />
                         <img src={youtubeIcon} alt="YouTube" />
