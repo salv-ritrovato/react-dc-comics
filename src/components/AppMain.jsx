@@ -158,16 +158,21 @@ const comics = [
 export default function AppMain() {
    return <main>
       {/* MAIN CONTENT START */}
-      <div className="content">
+      <div className="content pb-5">
          {/* JUMBOTRON */}
          <div className="jumbo">
          </div>
          <div className="container">
-            <div className="row row-cols-lg-6 row-cols-md-3 align-items-center py-4 g-4">
+            <div className="seriestag">
+               <span className="series text-white p-2">CURRENT SERIES</span>
+            </div>
+            <div className="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-6 py-5 gy-4">
                {comics.map((comic) => (
-                  <div className="col"><img key={comic.id} className="comics" src={comic.thumb} alt={comic.series}></img><span className="text-white d-block mt-2">{comic.series}</span></div>
+                  <div className="col"><img key={comic.id} className="comics" src={comic.thumb} alt={comic.series}></img><span className="text-white d-block mt-2">{comic.series.toUpperCase()}</span></div>
                ))}
-               <button className="load d-block">LOAD MORE</button>
+            </div>
+            <div className="d-flex justify-content-center">
+               <button className="load">LOAD MORE</button>
             </div>
          </div>
       </div>
