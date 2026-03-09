@@ -2,6 +2,7 @@
 * {
     outline: 1px solid red;
 }
+
 .blackbar {
     width: 100%;
     height: 40px;
@@ -72,13 +73,13 @@
 /* ONLINE SHOP */
 .onlineshop {
     background-color: #0282F9;
-    padding: 80px;
+    padding: 40px 20px;
     color: white;
 }
 
 .onlineshop .col {
-    min-width: 16.5rem;
-    padding: 1.5rem;
+    min-width: 12rem;
+    padding: 1rem;
 }
 
 .onlineshop img {
