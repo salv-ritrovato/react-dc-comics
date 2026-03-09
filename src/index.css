@@ -51,7 +51,8 @@
 }
 
 .onlineshop img {
-    width: 50px;
+    max-width: 45px;
+    max-height: 45px;
     object-fit: contain;
 }
 

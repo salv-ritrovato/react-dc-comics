@@ -32,7 +32,7 @@ export default function AppHeader() {
                         <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                             <ul className="navbar-nav mb-2 mb-lg-0">
                                 {links.map((link) => (
-                                    <li key={link.id} className="nav-item" href={link.url}>{link.text}</li>
+                                    <li key={link.id} className="nav-item"><a className="nav-link" href={link.url}>{link.text}</a></li>
                                 ))}
                             </ul>
                         </div>
