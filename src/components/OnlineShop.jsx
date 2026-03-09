@@ -11,7 +11,7 @@ export default function OnlineShop() {
             {/* ONLINE SHOP SECTION */}
             <div className="onlineshop">
                 <div className="container">
-                    <div className="row row-cols-1 row-cols-md-3 row-cols-lg-5 text-center g-5 justify-content-center align-items-center">
+                    <div className="row row-cols-1 row-cols-md-3 row-cols-lg-5 text-center g-5 justify-content-center">
                         <div className="col d-flex align-items-center">
                             <a href=""><img src={eComics} alt="Digital Comics" className="img-fluid" /></a>
                             <span className='d-none d-lg-block d-xl-inline'>DIGITAL&nbsp;COMICS</span>
