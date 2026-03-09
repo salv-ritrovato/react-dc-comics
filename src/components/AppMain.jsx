@@ -163,10 +163,12 @@ export default function AppMain() {
          <div className="jumbo">
          </div>
          <div className="container">
-            <div className="row d-flex align-items-center">
+            <div className="row row-cols-lg-3 d-flex align-items-center">
                <div className="col">
-                  {/* USING HTML ENTITIES TO REDUCE STRING SPACE */}
-                  <p>--&gt; Content goes here &lt;--</p>
+                  {comics.map((comic) => (
+                     <img key={comic.id} src={comic.thumb} alt={comic.series}></img>
+                     ))}
+                     <button className="load">LOAD MORE</button>
                </div>
             </div>
          </div>

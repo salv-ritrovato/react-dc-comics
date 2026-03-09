@@ -34,6 +34,7 @@
 .content {
     min-height: 10rem;
     background-color: #1c1c1c;
+    padding: 3rem;
 }
 
 .jumbo {
@@ -49,6 +50,15 @@
     font-size: 30px;
     color: white;
     font-weight: 700;
+}
+
+.load {
+    margin-top: 2rem;
+    border: 2px solid #0099ff;
+    background: #0282F9;
+    color: white;
+    padding: 5px 40px;
+    font-weight: 600;
 }
 
 
