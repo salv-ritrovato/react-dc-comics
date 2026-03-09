@@ -1,3 +1,4 @@
+/* IMPORTED SHOP ICONS */
 import eComics from '../../src/assets/img/buy-comics-digital-comics.png'
 import merchandise from '../../src/assets/img/buy-comics-merchandise.png'
 import subscription from '../../src/assets/img/buy-comics-subscriptions.png'
@@ -7,6 +8,7 @@ import powerVisa from '../../src/assets/img/buy-dc-power-visa.svg'
 export default function OnlineShop() {
     return (
         <>
+            {/* ONLINE SHOP SECTION */}
             <div className="onlineshop">
                 <div className="container">
                     <div className="row row-cols-1 row-cols-lg-5 text-center g-5 d-flex justify-content-center align-items-center">

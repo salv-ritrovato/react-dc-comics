@@ -1,3 +1,4 @@
+/* IMPORTED SOCIAL ICONS AND FOOTER DC LOGO */
 import fbIcon from '../../src/assets/img/footer-facebook.png'
 import twitterIcon from '../../src/assets/img/footer-twitter.png'
 import youtubeIcon from '../../src/assets/img/footer-youtube.png'
@@ -9,6 +10,7 @@ export default function AppFooter() {
    return (
       <>
          <footer>
+            {/* USEFUL LINKS */}
             <div className="container heroesbackground">
                <div className="row row-cols-1 row-cols-lg-6 text-center text-lg-start">
                   <div className="col">
@@ -59,6 +61,7 @@ export default function AppFooter() {
                   </div>
                </div>
             </div>
+            {/* SOCIAL LINKS */}
             <div className="socials">
                <div className="container">
                   <div className="row align-items-center justify-content-center justify-content-lg-between">
@@ -76,6 +79,7 @@ export default function AppFooter() {
                   </div>
                </div>
             </div>
+            {/* BOTTOM BLACK BAR */}
             <div className="blackbar">
             </div>
          </footer>
