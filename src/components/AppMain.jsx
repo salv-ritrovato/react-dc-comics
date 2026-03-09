@@ -165,11 +165,11 @@ export default function AppMain() {
          <div className="container">
             <div className="row row-cols-lg-6 row-cols-md-3 align-items-center py-4 g-4">
                {comics.map((comic) => (
-                  <div className="col"><img key={comic.id} className="comics" src={comic.thumb} alt={comic.series}></img></div>
+                  <div className="col"><img key={comic.id} className="comics" src={comic.thumb} alt={comic.series}></img><span className="text-white d-block mt-2">{comic.series}</span></div>
                ))}
                <button className="load d-block">LOAD MORE</button>
             </div>
          </div>
       </div>
-   </main >
+   </main>
 }
