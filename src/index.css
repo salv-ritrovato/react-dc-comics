@@ -34,7 +34,6 @@
 .content {
     min-height: 10rem;
     background-color: #1c1c1c;
-    padding: 3rem;
 }
 
 .jumbo {
@@ -59,6 +58,11 @@
     color: white;
     padding: 5px 40px;
     font-weight: 600;
+}
+
+.comics {
+    max-width: 200px;
+    max-height: 200px;
 }
 
 
