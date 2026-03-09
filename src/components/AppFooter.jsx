@@ -7,6 +7,43 @@ import periscopeIcon from '../../src/assets/img/footer-periscope.png'
 import dcLogoBackground from '../../src/assets/img/dc-logo-bg.png'
 
 export default function AppFooter() {
+   const linksOne = [
+      { id: 1, text: "Characters", href: "#" },
+      { id: 2, text: "Comics", href: "#" },
+      { id: 3, text: "Movies", href: "#" },
+      { id: 4, text: "TV", href: "#" },
+      { id: 5, text: "Games", href: "#" },
+      { id: 6, text: "Videos", href: "#" },
+      { id: 7, text: "News", href: "#" },
+   ];
+
+   const linksTwo = [
+      { id: 1, text: "Shop DC", href: "#" },
+      { id: 2, text: "Shop DC Collectibles", href: "#" },
+   ];
+
+   const linksThree = [
+      { id: 1, text: "Terms of Use", href: "#" },
+      { id: 2, text: "Privacy Policy (New)", href: "#" },
+      { id: 3, text: "Ad Choice", href: "#" },
+      { id: 4, text: "Advertising", href: "#" },
+      { id: 5, text: "Jobs", href: "#" },
+      { id: 6, text: "Subscriptions", href: "#" },
+      { id: 7, text: "Talent Workshops", href: "#" },
+      { id: 8, text: "CPSC Certificates", href: "#" },
+      { id: 9, text: "Ratings", href: "#" },
+      { id: 10, text: "Shop Help", href: "#" },
+      { id: 11, text: "Contact Us", href: "#" },
+   ];
+
+   const linksFour = [
+      { id: 1, text: "DC", href: "#" },
+      { id: 2, text: "MAD Magazine", href: "#" },
+      { id: 3, text: "DC Kids", href: "#" },
+      { id: 4, text: "DC Universe", href: "#" },
+      { id: 5, text: "DC Power Visa", href: "#" },
+   ];
+
    return (
       <>
          <footer>
@@ -16,44 +53,39 @@ export default function AppFooter() {
                   <div className="col">
                      <h5>DC COMICS</h5>
                      <ul className="list-unstyled">
-                        <li><a href="">Characters</a></li>
-                        <li><a href="">Comics</a></li>
-                        <li><a href="">Movies</a></li>
-                        <li><a href="">TV</a></li>
-                        <li><a href="">Games</a></li>
-                        <li><a href="">Videos</a></li>
-                        <li><a href="">News</a></li>
+                        {linksOne.map((link) => (
+                           <li key={link.id}>
+                              <a href={link.href}>{link.text}</a>
+                           </li>
+                        ))}
                      </ul>
                      <h5>SHOP</h5>
                      <ul className="list-unstyled">
-                        <li><a href="">Shop DC</a></li>
-                        <li><a href="">Shop DC Collectibles</a></li>
+                        {linksTwo.map((link) => (
+                           <li key={link.id}>
+                              <a href={link.href}>{link.text}</a>
+                           </li>
+                        ))}
                      </ul>
                   </div>
                   <div className="col">
                      <h5>DC</h5>
                      <ul className="list-unstyled">
-                        <li><a href="">Terms of Use</a></li>
-                        <li><a href="">Privacy Policy (New)</a></li>
-                        <li><a href="">Ad Choice</a></li>
-                        <li><a href="">Advertising</a></li>
-                        <li><a href="">Jobs</a></li>
-                        <li><a href="">Subscriptions</a></li>
-                        <li><a href="">Talent Workshops</a></li>
-                        <li><a href="">CPSC Certificates</a></li>
-                        <li><a href="">Ratings</a></li>
-                        <li><a href="">Shop Help</a></li>
-                        <li><a href="">Contact Us</a></li>
+                        {linksThree.map((link) => (
+                           <li key={link.id}>
+                              <a href={link.href}>{link.text}</a>
+                           </li>
+                        ))}
                      </ul>
                   </div>
                   <div className="col">
                      <h5>SITES</h5>
                      <ul className="list-unstyled">
-                        <li><a href="">DC</a></li>
-                        <li><a href="">MAD Magazine</a></li>
-                        <li><a href="">DC Kids</a></li>
-                        <li><a href="">DC Universe</a></li>
-                        <li><a href="">DC Power Visa</a></li>
+                        {linksFour.map((link) => (
+                           <li key={link.id}>
+                              <a href={link.href}>{link.text}</a>
+                           </li>
+                        ))}
                      </ul>
                   </div>
                   <div className="col d-none d-lg-block dcLogoBackground">

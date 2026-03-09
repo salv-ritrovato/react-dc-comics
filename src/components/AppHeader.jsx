@@ -2,6 +2,19 @@
 import dcLogo from '../../src/assets/img/dc-logo.png';
 
 export default function AppHeader() {
+    const links = [
+        { id: 1, text: "CHARACTERS", url: "#" },
+        { id: 2, text: "COMICS", url: "#" },
+        { id: 3, text: "MOVIES", url: "#" },
+        { id: 4, text: "TV", url: "#" },
+        { id: 5, text: "GAMES", url: "#" },
+        { id: 6, text: "COLLECTIBLES", url: "#" },
+        { id: 7, text: "VIDEOS", url: "#" },
+        { id: 8, text: "FANS", url: "#" },
+        { id: 9, text: "NEWS", url: "#" },
+        { id: 10, text: "SHOP", url: "#" }
+    ];
+
     return (
         <>
             <header>
@@ -18,16 +31,9 @@ export default function AppHeader() {
                         </button>
                         <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                             <ul className="navbar-nav mb-2 mb-lg-0">
-                                <li className="nav-item"><a className="nav-link" href="">CHARACTERS</a></li>
-                                <li className="nav-item"><a className="nav-link" href="">COMICS</a></li>
-                                <li className="nav-item"><a className="nav-link" href="">MOVIES</a></li>
-                                <li className="nav-item"><a className="nav-link" href="">TV</a></li>
-                                <li className="nav-item"><a className="nav-link" href="">GAMES</a></li>
-                                <li className="nav-item"><a className="nav-link" href="">COLLECTIBLES</a></li>
-                                <li className="nav-item"><a className="nav-link" href="">VIDEOS</a></li>
-                                <li className="nav-item"><a className="nav-link" href="">FANS</a></li>
-                                <li className="nav-item"><a className="nav-link" href="">NEWS</a></li>
-                                <li className="nav-item"><a className="nav-link" href="">SHOP</a></li>
+                                {links.map((link) => (
+                                    <li key={link.id} className="nav-item" href={link.url}>{link.text}</li>
+                                ))}
                             </ul>
                         </div>
                     </div>
