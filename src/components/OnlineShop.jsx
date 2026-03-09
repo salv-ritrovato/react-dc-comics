@@ -19,7 +19,7 @@ export default function OnlineShop() {
 
                         <div className="col">
                             <a href=""><img src={merchandise} alt="DC Merchandise" className="img-fluid" /></a>
-                            <span className='d-none d-block d-xl-inline'>DC&nbsp;MERCHANDISE</span>
+                            <span className='d-none d-lg-block d-xl-inline'>DC&nbsp;MERCHANDISE</span>
                         </div>
 
                         <div className="col">
