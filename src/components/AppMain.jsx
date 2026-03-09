@@ -168,7 +168,7 @@ export default function AppMain() {
             </div>
             <div className="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-6 py-5 gy-4">
                {comics.map((comic) => (
-                  <div className="col"><img key={comic.id} className="comics" src={comic.thumb} alt={comic.series}></img><span className="text-white d-block mt-2">{comic.series.toUpperCase()}</span></div>
+                  <div className="col"><div className="cardholder"><img key={comic.id} className="comics" src={comic.thumb} alt={comic.series}></img></div><span className="text-white d-block mt-2">{comic.series.toUpperCase()}</span></div>
                ))}
             </div>
             <div className="d-flex justify-content-center">
