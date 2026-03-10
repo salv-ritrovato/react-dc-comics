@@ -20,16 +20,6 @@
     color: #39a1fb;
 }
 
-.nav-link:hover::after {
-    content: ' ';
-    position: absolute;
-    background-color: #0099ff;
-    height: 7px;
-    width: 100%;
-    left: 0;
-    bottom: -65px;
-}
-
 /* MAIN */
 .content {
     min-height: 10rem;
@@ -173,4 +163,17 @@ footer {
 .socials img {
     width: 24px;
     height: 24px;
+}
+
+/* MEDIA QUERY FOR NAVBAR'S GRAPHIC EFFECT */
+@media (min-width: 992px) {
+    .nav-link:hover::after {
+        content: ' ';
+        position: absolute;
+        background-color: #0099ff;
+        height: 7px;
+        width: 100%;
+        left: 0;
+        bottom: -65px;
+    }
 }

@@ -1,3 +1,4 @@
+/* DESTRUCTURING */
 export default function AppComicCard({ comic }) {
     return (
         <div className="col">
@@ -11,6 +12,12 @@ export default function AppComicCard({ comic }) {
     );
 }
 
-/* function AppComicCard(props) {
-    return
+/* NO DESTRUCTURING */
+/* export default function AppComicCard(props) {
+    return (
+        <div>
+            <img src={props.comic.thumb} alt={props.comic.series} />
+            <span>{props.comic.series}</span>
+        </div>
+    );
 } */

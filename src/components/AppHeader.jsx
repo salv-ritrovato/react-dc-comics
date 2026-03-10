@@ -1,5 +1,6 @@
 /* NAVBAR LOGO IMPORTED */
 import dcLogo from '../../src/assets/img/dc-logo.png';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 export default function AppHeader() {
     const links = [
