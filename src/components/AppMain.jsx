@@ -1,4 +1,5 @@
 import jumbo from '../../src/assets/img/jumbotron.jpg'
+import AppComicCard from './AppComicCards';
 
 const comics = [
    {
@@ -73,7 +74,7 @@ const comics = [
       id: 6,
       title: "Batman Beyond #1",
       description: "“THE RETURN” part one! Terry McGinnis is back as Batman, much to the delight of his family and friends. But is the original Joker really back as well? Inspired by the possible return of their role model, the Jokerz have taken over an entire section of Gotham City and are determined to wreak havoc in the still-rebuilding city. While Batman battles chaos on the streets, his friend Dana is at the mercy of the new leader of the now-unified gang.",
-      thumb: "https://imgs.search.brave.com/jgxYlrx442aozemzjqdmCsd9DkIkRollJp1T8sG8TfE/rs:fit:720:1106:1/g:ce/aHR0cHM6Ly9veXN0/ZXIuaWduaW1ncy5j/b20vd29yZHByZXNz/L3N0Zy5pZ24uY29t/LzIwMTgvMTAvU1RM/MDk3MDk1LTcyMHgx/MTA2LmpwZw",
+      thumb: "https://imgs.search.brave.com/tX0NcMgGaJm3qTltqNQ_R77MNpTfapFfFbkWoUtjhDA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuY29taWNib29r/dHJlYXN1cnkuY29t/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDIx/LzA0L0JhdG1hbi1C/ZXlvbmQtUmViaXJ0/aC1Wb2x1bWUtMS03/MDV4MTA5MC5qcGc",
       price: "$2.99",
       series: "Batman Beyond",
       sale_date: "2016-10-26",
@@ -167,8 +168,9 @@ export default function AppMain() {
                <span className="series text-white p-2">CURRENT SERIES</span>
             </div>
             <div className="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-6 py-5 gy-4">
+               {/* GENERATING DYNAMIC COMICS */}
                {comics.map((comic) => (
-                  <div className="col"><div className="cardholder"><img key={comic.id} className="comics" src={comic.thumb} alt={comic.series}></img></div><span className="text-white d-block mt-2">{comic.series.toUpperCase()}</span></div>
+                  <AppComicCard key={comic.id} comic={comic} />
                ))}
             </div>
             <div className="d-flex justify-content-center">
